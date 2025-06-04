@@ -4,7 +4,7 @@ services:
 
   # streamlit 예제
   streamit:
-    image: bppp/streamlit
+    image: illey/streamlit
     build:
       context: .
       dockerfile: ./docker/Dockerfile.streamlit
@@ -16,7 +16,7 @@ services:
 
   # fastapi 예제
   fastapi:
-    image: bppp/fastapi
+    image: illey/fastapi
     build:
       context: .
       dockerfile: ./docker/Dockerfile.fastapi
@@ -28,7 +28,7 @@ services:
 
   # html(nginx) 예제
   web:
-    image: bppp/web
+    image: illey/web
     build:
       context: .
       dockerfile: ./docker/Dockerfile.web
