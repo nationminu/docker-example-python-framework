@@ -1,6 +1,8 @@
 ---
 
 services:
+
+  # streamlit 예제
   streamit:
     image: bppp/streamlit
     build:
@@ -12,6 +14,7 @@ services:
     volumes:
       - ./streamlit/app:/app
 
+  # fastapi 예제
   fastapi:
     image: bppp/fastapi
     build:
@@ -23,6 +26,7 @@ services:
     volumes:
       - ./fastapi/app:/app
 
+  # html(nginx) 예제
   web:
     image: bppp/web
     build:
