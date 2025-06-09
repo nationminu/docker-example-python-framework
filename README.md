@@ -19,4 +19,6 @@ curl http://localhost:8180
 # fastapi
 curl http://localhost:8280
 
+# database
+docker-compose exec database mysql -u illey -p illey
 ```
